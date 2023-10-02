@@ -1,7 +1,16 @@
 # DesafioTecnicoByside_01_2021
 
-Perfil de utilizador admin, instanciado pelo sistema:
-Username: admin
+Desafio original (prazo: 5 dias úteis)
+>Desenha   um   sistema   de   ficheiros   recorrendo   a   princípios   de   OO   (Orientação   a   objetos).\
+>A tua solução deverá ter em consideração os aspectos básicos de um sistema de ficheiros (pastas e ficheiros), as propriedades de cada um (datas, permissões, etc) bem como   as   principais   operações   que   podem   ser   efectuadas   (criar,   mover,   copiar,   etc).
+>
+> Condições
+>    - Usa a linguagem de programação com que estejas mais confortável (Na Byside trabalhamos maioritariamente com PHP, JS e Java, mas não te sintas forçado a usar   nenhuma   delas).
+>    - Disponibiliza   a   tua   solução   publicamente   (GitHub,   Bitbucket,   Gitlab,   etc);
+>    - Deverás   disponibilizar   a   tua   solução   até   24   horas   antes   da   entrevista;
+
+Perfil de utilizador admin, instanciado pelo sistema:\
+Username: admin\
 Password: adminpass
 
 Comando "help" na aplicação apresenta a seguinte informação:
@@ -26,7 +35,7 @@ Comando "help" na aplicação apresenta a seguinte informação:
     newadmin [username] [password]: Creates new user in admin group. Command restricted to existing admins.
     exit: exits the filesystem, ends program.
 
-Implementação de sistema de ficheiros em design OO, linguagem Java
-Quase todas as funcionalidades requerem que o utilizador esteja logged in no sistema como utilizador registado, várias requerem que o utilizador seja administrador
-Requerimentos eram vagos no que toca a funcionalidade necessária. Em vez de uma implementação totalmente funcional, utilizando por exemplo java.nio.FileSystem e java.nio.FileSystemProvider, optei por criar uma aplicação simples para por enfase no design OO e construção de código.
+Implementação de sistema de ficheiros em design OO, linguagem Java.\
+Quase todas as funcionalidades requerem que o utilizador esteja logged in no sistema como utilizador registado, várias requerem que o utilizador seja administrador.\
+Requerimentos eram vagos no que toca a funcionalidade necessária. Em vez de uma implementação totalmente funcional, utilizando por exemplo java.nio.FileSystem e java.nio.FileSystemProvider, optei por criar uma aplicação simples para por enfase no design OO e construção de código.\
 Gostaria de ter implementado mais funcionalidades (possibilidade de vários diretórios root para simular diferentes file stores, utilizadores poderem pertencer a diversos grupos, alterar credenciais de utilizadores, persistir o sistema entre usos da aplicação) e polido mais o projeto, mas entre restrição de tempo, e querer evitar bloating, decidi restringir-me a estas funcionalidades finais.
